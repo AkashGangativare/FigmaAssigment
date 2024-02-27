@@ -1,0 +1,41 @@
+.footer {
+    /* margin-top: 400px; */
+    width: 100vw;
+    height: 450px;
+    background-color: #212731;
+    color: #B6BDC4;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 15%;
+    padding-top: 60px;
+}
+
+.footer p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.footer>div:first-child {
+    margin-left: 20%;
+}
+
+.svg-img {
+    display: inline;
+    margin-left: 10px;
+}
+
+.footer>div:last-child>div {
+    margin-top: 80px;
+    color: #B6BDC4;
+    font-size: 1rem;
+
+}
+
+.footer>div ul {
+    list-style: none;
+}
+
+.footer>div li {
+    margin-top: 20px;
+}
